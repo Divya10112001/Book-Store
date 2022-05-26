@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.VerifyPhoneNo">
+    <RelativeLayout
+        android:id="@+id/header_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/book1"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_verify"
+        android:gravity="center"
+        android:layout_marginTop="40sp"
+        android:padding="10dp"
+        android:text="VERIFY PHONE NO."
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/t2"
+        android:padding="10dp"
+        android:layout_below="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter verification code if not automatically authenticated"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_below="@+id/t2"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter OTP"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_color"
+        android:padding="10dp"
+        android:text="VERIFY"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/footer"/>
+
+</RelativeLayout>

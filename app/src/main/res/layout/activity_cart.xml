@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    tools:context=".activity.cart">
+    <ImageView
+        android:id="@+id/tick"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_baseline_check_circle_24"/>
+    <TextView
+        android:layout_below="@+id/tick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Order Has Been Placed."
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/okbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="20sp"
+        android:textColor="@color/primary_color"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ffffff"
+        />
+
+
+</RelativeLayout>
+

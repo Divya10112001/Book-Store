@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_primary"
+    android:id="@+id/profilefragment"
+    tools:context=".fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip">
+        <!-- Logo Start-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/book1"
+            android:contentDescription="@string/app_name"/>
+        <!-- Logo Ends -->
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/r"
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imgicon"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="90dp"
+            android:background="#ffffff"
+            android:src="@drawable/ic_profile" />
+
+        <TextView
+            android:id="@+id/profilename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgicon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/profilemob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profilename"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="@string/mobile"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/profileemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profilemob"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/email"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/profileadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileemail"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="@string/address"
+            android:layout_marginStart="20dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footer">
+
+    </RelativeLayout>
+</RelativeLayout>
+</FrameLayout>

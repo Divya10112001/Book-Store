@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "884097081667",
+    "project_id": "kindle-51b97",
+    "storage_bucket": "kindle-51b97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884097081667:android:a0ea747c0f0478ce8fcff6",
+        "android_client_info": {
+          "package_name": "com.example.kindle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884097081667-8r41djmq6bk11t1a4n8mjeqdv8pujh3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlK-VkAUd70vQ7HFsvmL6LnZd4dayGF_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884097081667-8r41djmq6bk11t1a4n8mjeqdv8pujh3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

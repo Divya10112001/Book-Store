@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Book Hub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="about_the_app">About the app</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="about_app_fragment">About app fragment</string>
+    <string name="profile_fragment">USER INFO</string>
+    <string name="favourite_fragment">Favourite Fragment</string>
+    <string name="check_internet">Check Internet</string>
+    <string name="add_to_favourite">ADD TO cart</string>
+    <string name="hello_world">Hello World</string>
+    <string name="online_book_store">ONLINE BOOK STORE</string>
+    <string name="login">LOGIN</string>
+    <string name="new_here_register_here">New here? Register here</string>
+    <string name="password">Password</string>
+    <string name="mobile">Mobile No.</string>
+    <string name="my_cart">My Cart</string>
+    <string name="register">REGISTER</string>
+    <string name="already_have_an_account_click_here">Already have an account ? Click here</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="sort">Sort</string>
+    <string name="upload_image">UPLOAD IMAGE</string>
+    <string name="no_books_in_cart">ADD BOOKS TO CART</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="logout">LOGOUT</string>
+    <string name="bookhub">BookHub</string>
+    <string name="proceed_to_cart">proceed to pay</string>
+</resources>

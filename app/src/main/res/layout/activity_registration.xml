@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    tools:context=".activity.RegistrationActivity">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <!--  Header Starts-->
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/gradient"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+            <!-- Logo Start-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/book1" />
+            <!-- Logo Ends -->
+        </RelativeLayout>
+        <!--  Header Ends -->
+
+        <!-- Login Form -->
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="525dp"
+            android:layout_below="@id/header"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="@color/purple_500" />
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/email"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="@color/purple_500" />
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/mobile"
+                android:inputType="number"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="@color/purple_500" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/address"
+                android:inputType="text"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="@color/purple_500" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="@color/purple_500"
+                android:imeOptions="actionDone"/>
+
+            <!-- Login button -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#9370db"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+            <!-- Link to Registration Screen -->
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/already_have_an_account_click_here"
+                android:textColor="@color/primary_color"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <!-- Login Form Ends -->
+        <!-- Footer Start -->
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/ll"
+            android:background="@drawable/footer">
+
+        </RelativeLayout>
+        <!-- Footer Ends -->
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
